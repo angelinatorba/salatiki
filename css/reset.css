@@ -1,0 +1,55 @@
+/* Полный сброс стилей */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    font: inherit;
+    color: inherit;
+}
+
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+/* Убираем стили для форм */
+input, textarea, select, button {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* Убираем стили для изображений */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Убираем пробелы под изображениями */
+}
+
+/* Убираем стили для таблиц */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Убираем стили для ссылок */
+a {
+    color: inherit; /* Унаследовать цвет текста */
+}
+
+/* Убираем стили для списков */
+ul, ol {
+    padding-left: 0;
+}
+
+/* Убираем стили для кнопок */
+button {
+    cursor: pointer;
+}
+
